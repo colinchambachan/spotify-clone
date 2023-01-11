@@ -51,12 +51,108 @@ body {
   color: #b3b3b3;
 }
 
+.sidebar .navigation ul li .fa {
+  font-size: 20px;
+  margin-right: 10px;
+}
 .sidebar .navigation ul li a:hover .fa:hover,
 .sidebar .navigation ul li a:active .fa:active,
 .sidebar .navigation ul li a:focus .fa:focus {
   color: #ffffff;
 }
 
-.sidebar .policies{
-  
+.sidebar .policies {
+  position: absolute;
+  bottom: 100px;
+}
+
+.sidebar .policies ul {
+  list-style: none;
+}
+
+.sidebar .policies ul li {
+  padding-bottom: 5px;
+}
+
+.sidebar .policies ul li a {
+  color: #b3b3b3;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.main-container {
+  margin-left: 245px;
+  margin-bottom: 100px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #101010;
+  padding: 14px 30px;
+}
+
+.topbar .prev-next-buttons button {
+  color: #7a7a7a;
+  cursor: not-allowed;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  font-size: 18px;
+  border: 0px;
+  background-color: #090909;
+  margin-right: 10px;
+}
+
+.topbar .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.topbar .navbar ul {
+  list-style: none;
+}
+
+.topbar .navbar ul li {
+  display: inline-block;
+  margin: 0px 8px;
+  width: 70px;
+}
+.topbar .navbar ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul li a:active,
+.topba .navbar ul li a:focus {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.topbar .navbar ul li.divider {
+  color: #ffffff;
+  font-size: 26px;
+  margin: 0px 20px;
+  width: auto;
+}
+
+.topbar .navbar button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 20;
+}
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus {
+  background-color: #f2f2f2;
 }
